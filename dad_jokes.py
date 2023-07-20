@@ -16,7 +16,7 @@ def get_dad_joke():
         print(f"Failed to fetch joke. Status code: {response.status_code}")
 
 def whatsapp_send_mssg():
-    pw.sendwhatmsg("+916379503451",get_dad_joke(),time_hour= 17,time_min= 39)
+    pw.sendwhatmsg("+91xxxxxxxxxx",get_dad_joke(),time_hour= 18,time_min= 3)
     # pw.sendwhatmsg_to_group(group_id="BSi2ZxNGOsWA81LUADwuJS",message= get_dad_joke(),time_hour = 15,time_min= 50)
 
 
